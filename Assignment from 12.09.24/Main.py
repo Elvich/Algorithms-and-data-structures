@@ -1,3 +1,5 @@
+import os
+
 isOpen = True
 
 while isOpen:
@@ -24,10 +26,19 @@ while isOpen:
     Choice = int(input("Введите ночер задачи: "))
     print("\n")
 
-    print(Choice)
-
     if(Choice == 16):
         isOpen = False
+        break
 
+    if (Choice == 1):
+        os.system('python3 One.py')
+    elif (Choice == 2):
+        os.system('python3 Two.py')
+    elif (Choice == 4):
+        os.system('python3 Four.py')
+    else:
+        print("К сожалению не сделанно")
+
+    input("Нажмите Enter, чтобы продолжить")
 
     print("\n")
