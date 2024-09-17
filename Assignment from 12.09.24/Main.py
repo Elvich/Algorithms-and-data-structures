@@ -3,7 +3,6 @@ import os
 isOpen = True
 
 while isOpen:
-
     print("Выберете номер нужного задания \n")
 
     print("1. Проверка возможности составить треугольник")
@@ -26,16 +25,32 @@ while isOpen:
     Choice = int(input("Введите ночер задачи: "))
     print("\n")
 
-    if(Choice == 16):
+    if Choice == 16:
         isOpen = False
         break
 
-    if (Choice == 1):
+    if Choice == 1:
         os.system('python3 One.py')
-    elif (Choice == 2):
+    elif Choice == 2:
         os.system('python3 Two.py')
-    elif (Choice == 4):
+    elif Choice == 4:
         os.system('python3 Four.py')
+    elif Choice == 5:
+        os.system('python3 Five.py')
+    elif Choice == 6:
+        os.system('python3 Six.py')
+    elif Choice == 7:
+        os.system('python3 Seven.py')
+    elif Choice == 8:
+        os.system('python3 Eight.py')
+    elif Choice == 9:
+        os.system('python3 Nine.py')
+    elif Choice == 10:
+        os.system('python3 Ten.py')
+    elif Choice == 11:
+        os.system('python3 Eleven.py')
+    elif Choice == 12:
+        os.system('python3 Twelve.py')
     else:
         print("К сожалению не сделанно")
 
