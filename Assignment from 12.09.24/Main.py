@@ -60,7 +60,7 @@ while isOpen:
     elif Choice == 15:
         os.system('python3 Fifteen.py')
     else:
-        print("К сожалению не сделанно")
+        print("Такого задания нет. Повторите попытку")
 
     input("Нажмите Enter, чтобы продолжить")
 
