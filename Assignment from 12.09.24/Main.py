@@ -33,6 +33,8 @@ while isOpen:
         os.system('python3 One.py')
     elif Choice == 2:
         os.system('python3 Two.py')
+    elif Choice == 3:
+        os.system('python3 Three.py')
     elif Choice == 4:
         os.system('python3 Four.py')
     elif Choice == 5:
@@ -51,6 +53,12 @@ while isOpen:
         os.system('python3 Eleven.py')
     elif Choice == 12:
         os.system('python3 Twelve.py')
+    elif Choice == 13:
+        os.system('python3 Thirteen.py')
+    elif Choice == 14:
+        os.system('python3 Fourteen.py')
+    elif Choice == 15:
+        os.system('python3 Fifteen.py')
     else:
         print("К сожалению не сделанно")
 
