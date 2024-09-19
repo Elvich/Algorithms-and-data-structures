@@ -1,4 +1,6 @@
 str1 = input("Введите первую строку: ")
-str2 = input("Введите вторуб строку: ")
+str2 = input("Введите вторую строку: ")
+str1.lower()
+str2.lower()
 print(" ")
 print(sorted(str1) == sorted(str2))
