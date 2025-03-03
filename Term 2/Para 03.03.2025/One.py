@@ -62,11 +62,10 @@ print("-" * 40)
 search_brand = "Mercedes"
 search_year = 2021
 
-print(f"\n Поиск по бренду '{search_brand}' и году выпуска '{search_year}':\n")
+print(f"Поиск по бренду '{search_brand}' и году выпуска '{search_year}':\n")
 found_cars = [car for car in cars if car.matches_conditions(brand=search_brand, year=search_year)]
 if found_cars:
     for car in found_cars:
         car.get_info()
-        print("-" * 40)
 else:
     print("No cars found.")

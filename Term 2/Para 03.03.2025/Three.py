@@ -51,6 +51,7 @@ products = [
     Food("Шоколад", "Аленка", 200, "01.12.2025"),
 ]
 
+print("Вся информация о товаров:\n")
 for product in products:
     product.get_info()
 
