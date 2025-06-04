@@ -11,7 +11,6 @@ class DoublyLinkedList:
         self.tail = None
 
     def append(self, data):
-        """Добавление в конец"""
         new_node = Node(data)
         if not self.head:
             self.head = self.tail = new_node
