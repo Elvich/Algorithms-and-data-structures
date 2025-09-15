@@ -68,4 +68,4 @@ class LoyaltyDiscount(OrderDiscountDecorator):
         return cost * (1 - discount)
 
     def get_description(self) -> str:
-        return self._order.get_description() + f" | Уровень скидокb {self.loyalty_level}"
+        return self._order.get_description() + f" | Уровень скидок {self.loyalty_level}"
