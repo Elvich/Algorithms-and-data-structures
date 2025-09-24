@@ -22,7 +22,7 @@
 
 ## Скриншот интерфейса
 
-(Вставьте сюда скриншот окна калькулятора, если требуется по заданию)
+![Изображение интерфейса](https://github.com/Elvich/Algorithms-and-data-structures/blob/main/Term%203/LR%203/SCH.png)
 
 ## Код программы
 
@@ -84,4 +84,6 @@ for j in range(4):
 
 root.mainloop()
 ```
+
+
 
