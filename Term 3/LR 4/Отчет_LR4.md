@@ -29,6 +29,10 @@
 
 7. **Предварительный просмотр**: Временные объекты создаются и удаляются во время перетаскивания мыши для показа результата до завершения рисования.
 
+## Скриншот интерфейса
+
+![Изображение интерфейса](https://github.com/Elvich/Algorithms-and-data-structures/blob/main/Term%203/LR%204/Paint.png)
+
 ## Код программы
 
 #### `draw(self, canvas: tk.Canvas, start_x: int, start_y: int, end_x: int, end_y: int, **kwargs: Any) -> int`
