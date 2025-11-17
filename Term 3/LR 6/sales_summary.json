@@ -1,0 +1,11 @@
+{
+    "total_revenue": 18444.95,
+    "top_selling_product": {
+        "name": "Wireless Mouse",
+        "quantity": 35
+    },
+    "most_profitable_product": {
+        "name": "Gaming Monitor",
+        "revenue": 2990.0
+    }
+}
