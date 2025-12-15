@@ -55,13 +55,7 @@ def save_summary(summary: Dict[str, object], path: Path) -> None:
         json.dump(summary, file, ensure_ascii=False, indent=4)
 
 
-def main() -> None:
-    rows = read_sales(SALES_CSV)
-    summary = analyze_sales(rows)
-    save_summary(summary, SUMMARY_JSON)
-    print(f"Анализ завершен. Результаты сохранены в {SUMMARY_JSON.name}")
-
-
-if __name__ == "__main__":
-    main()
-
+rows = read_sales(SALES_CSV)
+summary = analyze_sales(rows)
+save_summary(summary, SUMMARY_JSON)
+print(f"Анализ завершен. Результаты сохранены в {SUMMARY_JSON.name}")

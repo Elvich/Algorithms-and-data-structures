@@ -17,6 +17,5 @@ def main():
     print(f"Количество символов: {char_count}")
 
 
-if __name__ == "__main__":
-    main()
+main()
 
