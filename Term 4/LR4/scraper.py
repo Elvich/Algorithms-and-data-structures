@@ -36,8 +36,7 @@ def parse_page(url):
     try:
         headers = {
             "User-Agent": (
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36"
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " "AppleWebKit/537.36"
             )
         }
         response = requests.get(url, headers=headers, timeout=10)
@@ -108,9 +107,7 @@ def run_multi_thread(urls, max_workers=5):
     """
     start_time = time.time()
     results = []
-    with concurrent.futures.ThreadPoolExecutor(
-        max_workers=max_workers
-    ) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         for result in executor.map(parse_page, urls):
             results.append(result)
     end_time = time.time()
